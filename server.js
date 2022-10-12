@@ -18,8 +18,8 @@ app.post('/', (req, res)=>{
     console.log(req.body)
 
     const transporter = nodemailer.createTransport({
-        host: 'mailout.one.com',
-        port: 587,
+        host: 'send.one.com',
+        port: 465,
         secure: true,
         auth: {
             user: 'jeppe@menholt.dk',
